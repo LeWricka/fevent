@@ -1,0 +1,20 @@
+<ion-content class="main-page">
+    <img src="assets/img/main-page.jpg"/>
+    <div class="main-page-content">
+        <ion-row>
+            <ion-col width-80>
+                <ion-item class="input">
+                    <ion-input text-center [(ngModel)]="codeInput" type="text"
+                               placeholder="Place your code"></ion-input>
+                </ion-item>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col>
+                <button ion-button class="button" type="submit" (click)='goToConcert()'>
+                    Let's Go!
+                </button>
+            </ion-col>
+        </ion-row>
+    </div>
+</ion-content>
